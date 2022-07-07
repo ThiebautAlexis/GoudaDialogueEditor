@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6773195566163462389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74a21a9c0ddacd4b9e5c3ad74226583, type: 3}
+  m_Name: SequentialNode
+  m_EditorClassIdentifier: 
+  Guid: fcfc0a1969f0f6b4fa827bb5f3043c3b
+  Position: {x: 599.88, y: 260}
+  LinkedNode: {fileID: 0}
+  linesKeys: ffffffff
+--- !u!114 &-3267238888149927915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36150b0f3e0f5d40be4011ef9437422, type: 3}
+  m_Name: SingleLineNode
+  m_EditorClassIdentifier: 
+  Guid: 9e8c9d1a9b3a4d34d8801ebd19fcc962
+  Position: {x: 355.88, y: 166}
+  LinkedNode: {fileID: -6773195566163462389}
+  linesKeys: ffffffff
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec44199ac640944fbd0684f7d99dd72, type: 3}
+  m_Name: Dialogue_002
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: 5478000289921024677}
+  nodes:
+  - {fileID: -3267238888149927915}
+  - {fileID: -6773195566163462389}
+  Database:
+  - {fileID: 11400000, guid: be39205d03111024e98c3bc080404421, type: 2}
+--- !u!114 &5478000289921024677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbcccb221517844d9445f023052e640, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  Guid: 9e4aced3d357e584ead66c4a0f88327b
+  Position: {x: 120.880005, y: 111}
+  LinkedNode: {fileID: -3267238888149927915}
