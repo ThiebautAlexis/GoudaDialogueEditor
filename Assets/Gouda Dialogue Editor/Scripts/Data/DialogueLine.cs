@@ -6,6 +6,8 @@ namespace GoudaDialogueEditor
     [Serializable]
     public class DialogueLine
     {
+        public static readonly string KeyPropertyName = "LineKey";
+
         #region Fields and Properties
         public string LineKey;
         public int LineID;

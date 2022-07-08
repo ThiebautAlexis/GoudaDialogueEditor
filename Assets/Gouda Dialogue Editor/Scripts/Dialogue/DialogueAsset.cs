@@ -14,7 +14,7 @@ namespace GoudaDialogueEditor
         public RootNode RootNode;
         public List<Node> nodes = new List<Node>();
 
-        public List<DialogueDatabaseAsset> Database = new List<DialogueDatabaseAsset>();
+        public DialogueDatabaseAsset[] Database = new DialogueDatabaseAsset[] { };
         #endregion
 
         #region Methods 
@@ -22,13 +22,13 @@ namespace GoudaDialogueEditor
         #region Database 
         public string GetLineFromID(int _id)
         {
-            for (int i = 0; i < Database.Count; i++)
+            for (int i = 0; i < Database.Length; i++)
             {
-                for (int j = 0; j < Database[i].dialogueLines.Length; j++)
+                for (int j = 0; j < Database[i].DialogueLines.Length; j++)
                 {
-                    if(Database[i].dialogueLines[j].LineID == _id)
+                    if(Database[i].DialogueLines[j].LineID == _id)
                     {
-                        return Database[i].dialogueLines[j].Lines[0];
+                        return Database[i].DialogueLines[j].Lines[0];
                     }
                 }
             }

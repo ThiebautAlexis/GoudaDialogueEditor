@@ -12,7 +12,7 @@ namespace GoudaDialogueEditor.Editor
         #endregion
 
         #region Methods 
-        public void InitEditor(DialogueAsset _asset)
+        public virtual void InitEditor(DialogueAsset _asset)
         {
             dialogueAsset = new SerializedObject(_asset);
         }

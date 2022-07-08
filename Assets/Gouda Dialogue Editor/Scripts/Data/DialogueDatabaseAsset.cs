@@ -7,7 +7,7 @@ namespace GoudaDialogueEditor
     public class DialogueDatabaseAsset : ScriptableObject
     {
         #region Fields and Properties
-        public DialogueLine[] dialogueLines = new DialogueLine[] { };
+        public DialogueLine[] DialogueLines = new DialogueLine[] { };
         #endregion
 
         #region Methods 

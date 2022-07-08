@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c3c2d8de49c0944a7b7b4e7823e7da, type: 3}
   m_Name: LinesDatabase_001
   m_EditorClassIdentifier: 
-  dialogueLines:
-  - LineKey: 
+  DialogueLines:
+  - LineKey: AL_001
     LineID: 0
     Lines: []
-  - LineKey: AL_001_TE
+  - LineKey: AL_002
     LineID: 0
-    Lines:
-    - Test
+    Lines: []
+  - LineKey: AL_003
+    LineID: 0
+    Lines: []

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SequentialNode
   m_EditorClassIdentifier: 
   Guid: fcfc0a1969f0f6b4fa827bb5f3043c3b
-  Position: {x: 599.88, y: 260}
+  Position: {x: 599, y: 260}
   LinkedNode: {fileID: 0}
-  linesKeys: ffffffff
+  linesKeys: ffffffffffffffffffffffffffffffff
 --- !u!114 &-3267238888149927915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: SingleLineNode
   m_EditorClassIdentifier: 
   Guid: 9e8c9d1a9b3a4d34d8801ebd19fcc962
-  Position: {x: 355.88, y: 166}
+  Position: {x: 335, y: 166}
   LinkedNode: {fileID: -6773195566163462389}
   linesKeys: ffffffff
 --- !u!114 &11400000
